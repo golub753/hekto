@@ -1,9 +1,9 @@
-
+import HeaderSettings from "./HeaderSettings/HeaderSettings";
 
 const Header = (props) => {
     return ( 
         <header>
-                test
+            <HeaderSettings/>
         </header>
      );
 }

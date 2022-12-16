@@ -1,0 +1,65 @@
+.header {
+    &-settings {
+        background: #7E33E0;
+    }
+    &-links {
+        display: flex;
+        align-items: center;
+        grid-column-gap: 48px;
+    }
+    &-link {
+        display: flex;
+        align-items: center;
+        grid-column-gap: 10px;
+        &__text {
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 19px;
+            color: #F1F1F1;
+        }
+    }
+    &-wrapper {
+        padding: 9px 0 11px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-info {
+        display: flex;
+        align-items: center;
+        grid-column-gap: 16px;
+    }
+    &-language, &-price {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        grid-column-gap: 5px;
+        &__text {
+            font-size: 16px;
+            line-height: 19px;
+            color: #F1F1F1;
+        }
+        &__arrow {
+            height: 7px;
+            padding-bottom: 3px;
+        }
+    }
+    &-user, &-wish {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        grid-column-gap: 5px;
+        &__text {
+            font-size: 16px;
+            line-height: 19px;
+            color: #F1F1F1;
+        }
+        &__icon {
+            padding-bottom: 3px;
+        }
+    }
+    &-basket {
+        cursor: pointer;
+        padding-bottom: 3px;
+    }
+}
