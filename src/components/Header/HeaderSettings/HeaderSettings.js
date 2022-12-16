@@ -1,10 +1,10 @@
 import Container from "../../Container";
-import HeaderSocial from "../HeaderSocial/HeaderSocial";
-import HeaderLanguage from "../HeaderLanguage/HeaderLanguage";
-import HeaderPrice from "../HeaderPrice/HeaderPrice";
-import HeaderUser from "../HeaderUser/HeaderUser";
-import HeaderWish from "../HeaderWish/HeaderWish";
-import HeaderBasket from "../HeaderBasket/HeaderBasket";
+import HeaderSocial from "./HeaderSocial/HeaderSocial";
+import HeaderLanguage from "./HeaderLanguage/HeaderLanguage";
+import HeaderPrice from "./HeaderPrice/HeaderPrice";
+import HeaderUser from "./HeaderUser/HeaderUser";
+import HeaderWish from "./HeaderWish/HeaderWish";
+import HeaderBasket from "./HeaderBasket/HeaderBasket";
 
 const HeaderSettings = () => {
     return ( 
