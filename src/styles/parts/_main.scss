@@ -2,6 +2,30 @@
     background: #F2F0FF;
     position: relative;
     height: 764px;
+    .container {
+        height: 100%;
+        .swiper {
+            height: 100%;
+            &-pagination {
+                bottom: 52px;
+                &-bullet {
+                    width: 10px;
+                    height: 9.89px;
+                    left: 953px;
+                    top: 826.07px;
+                    border: 1px solid #FB2E86;
+                    transform: rotate(-45deg);
+                    border-radius: 0;
+                    background: transparent;
+                    opacity: 1;
+                    transition: .3s;
+                    &-active {
+                        background: #FB2E86;
+                    }
+                }
+            }
+        }
+    }
     &-lamp {
         position: absolute;
         left: 70px;
@@ -17,10 +41,13 @@
         left: 184px;
     }
     &-slide {
+        height: 100%;
         &-wrapper {
-            display: flex;
+            height: 100%;
             align-items: center;
             justify-content: space-between;
+            display: grid;
+            grid-template-columns: 1.4fr 1fr;
         }
         &-info {
             display: flex;
@@ -73,29 +100,29 @@
         &-img {
             position: relative;
             img {
-                width: 629px;
+                width: 505px;
             }
             &::after {
                 content: '';
-                width: 648px;
-                height: 648px;
+                width: 505px;
+                height: 505px;
                 background: rgba(236, 210, 250, 0.35);
                 position: absolute;
                 border-radius: 50%;
                 z-index: -1;
                 top: -19px;
-                left: -10px;
+                left: -47px;
             }
             &::before {
                 content: '';
                 position: absolute;
-                width: 651px;
-                height: 651px;
+                width: 505px;
+                height: 505px;
                 background: rgba(236, 210, 250, 0.35);
                 border-radius: 50%;
                 z-index: -1;
                 top: -60px;
-                left: 45px;
+                left: -10px;
             }
         }
         &__sale {
@@ -112,8 +139,8 @@
             font-size: 35px;
             line-height: 44px;
             color: #FFFFFF;
-            top: -5px;
-            right: -54px;
+            top: -60px;
+            right: 0;
         }
     }
 }
