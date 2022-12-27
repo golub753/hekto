@@ -3,7 +3,7 @@ const HeaderLi = ({text, submenu}) => {
         <li className="header-li">
             <a href="#null" className="header-li__link">
             {text}
-            {submenu ? <i class="fa fa-angle-down header-li__icon" aria-hidden="true"></i> : false}
+            {submenu ? <i className="fa fa-angle-down header-li__icon" aria-hidden="true"></i> : false}
             </a>
         </li>
      );

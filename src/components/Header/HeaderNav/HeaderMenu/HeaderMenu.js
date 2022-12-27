@@ -31,9 +31,10 @@ const HeaderMenu = (props) => {
     return ( 
         <nav className="header-menu">
             <ul className="header-ul">
-                {items.map(item => {
+                {items.map((item, index) => {
                     return (
                         <HeaderLi 
+                            key={index}
                             text={item.text}
                             submenu={item.submenu}
                         />
